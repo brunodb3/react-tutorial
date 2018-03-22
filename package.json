@@ -1,0 +1,37 @@
+{
+  "private": false,
+  "license": "MIT",
+  "version": "0.0.0",
+  "name": "react-tutorial",
+  "author": "Bruno Duarte Brito <brunodb3@gmail.com>",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "release": "standard-version",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=jsdom",
+    "commit": "git add --all . && git-cz && npm run release"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@nordnet/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@nordnet/cz-conventional-changelog": "^1.1.0",
+    "commitizen": "^2.9.6",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "standard-version": "^4.3.0"
+  }
+}
