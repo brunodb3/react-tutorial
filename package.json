@@ -17,6 +17,7 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "test": "react-scripts test --env=jsdom",
+    "github": "git push --follow-tags origin",
     "commit": "git add --all . && git-cz && npm run release"
   },
   "engines": {
